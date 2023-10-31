@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    /* border: 1px solid red; */
+    background-color: grey;
+    margin: 0 4rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+main h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    border-radius: 1rem;
+    margin: .5em;
+}
